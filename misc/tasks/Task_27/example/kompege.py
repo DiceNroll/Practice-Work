@@ -1,6 +1,5 @@
-
 clustersA = [[],[]]
-#
+
 for s in open('27_A_17916.txt'):
     x, y = [float(c) for c in s.split()]
     if y > 8:
