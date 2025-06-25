@@ -1,5 +1,5 @@
 def dividers(num):
-    d = [div for div in range(1, num + 1) if num % div == 0]
+    d = [div for div in range(1, int(num ** 0.5) + 1) if num % div == 0]
     return len(d) == 2
 
 
